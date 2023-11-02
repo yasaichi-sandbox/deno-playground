@@ -1,5 +1,4 @@
-// @deno-types="npm:@types/express@^4"
-import express from 'npm:express@4';
+import { express } from './deps.ts';
 
 const app = express();
 const port = 3000;
